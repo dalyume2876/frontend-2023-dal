@@ -1,0 +1,56 @@
+#가 {
+    /* 폰트 사이즈의 설정 - 키워드 */
+    font-size: xx-small;
+    color: #f00000;
+    text-align: start;
+}
+
+#나{
+    font-size: medium;
+    color: brown;
+    text-align: end;
+}
+
+#다 {
+    font-size: xx-large;
+    color:lightblue;
+    text-align: center;
+}
+
+#라의상위요소{
+    font-size: 20px;
+    color: rgb(123, 123, 255);
+    text-align: justify;
+}
+
+#라 {
+    font-size: 2em;
+    
+}
+
+#마 {
+    font-size: 16px;
+    font-style: italic;
+    font-style: normal;
+    color: rgba(0, 0, 255, 0.4);    
+}
+
+#바 {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#사 {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+#아{
+    text-align: justify;
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+

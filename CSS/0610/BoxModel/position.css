@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    width: 100px;
+    border: 1px solid #222222;
+}
+
+#id1{
+    position: absolute;
+}
+
+#id2{
+    position: relative;
+}
+
+#id3 {
+    position: relative;
+    /* 왼쪽에서 100px 떨어지게 */
+    left:100px;
+    /* 위쪽에서 -50px 떨어짐(마이너스라 위로 이동) */
+    top:-50px
+}
+
+#id4 {
+    position: fixed;
+    right: 50px;
+    top: 30px;
+}

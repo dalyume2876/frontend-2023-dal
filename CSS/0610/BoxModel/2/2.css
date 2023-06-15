@@ -1,0 +1,60 @@
+section{
+    width:800px;
+    margin: 0 auto;	
+}
+h2{
+    font-size:1.5em;
+}
+h3 {
+    font-size:1.0em;
+}
+p {
+    line-height:20px;
+    font-size:12px;
+}
+footer {
+    clear: left;
+    margin-top: 50px;
+    width:100%;
+    height:50px;
+    background-color:#222;
+}
+footer > p {
+    color:#fff;
+    font-size:0.9em;
+    text-align: center;
+    line-height:50px;
+}
+
+article {
+    float: left;
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* .at1, .at2, .at3, .at4 {
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.227);
+    width: 370px;
+    height: 200px;
+}
+
+.at2 {
+    position: absolute;
+    right: 370px;
+    top: 72px;
+}
+
+.at3 {
+    position: relative;
+    top: 25px;
+}
+
+.at4 {
+    position: absolute;
+    left : 775px;
+    top : 320px;
+} */
