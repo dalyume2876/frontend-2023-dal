@@ -1,3 +1,12 @@
+input{
+    border-radius: 0;
+    border: none;
+    background: 0 0;
+    outline: 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .header{
     padding-bottom: 48px;
     box-sizing: border-box;
@@ -89,7 +98,7 @@
     position: relative;
     table-layout: fixed;
     width: 100%;
-    display: block;
+    display: table;
     height: 100%;
     border: 1px solid #dadada;
     padding: 16px 18px 15px;
@@ -97,6 +106,10 @@
     box-sizing: border-box;
     text-align: left;
     box-shadow: 0 2px 6px 0 rgba(68, 68, 68, .08);
+}
+
+.input_row +.input_row {
+    margin-top: -1px;
 }
 
 .icon_cell {
@@ -115,16 +128,13 @@
     width: 16px;
     height: 16px;
     background-image: url(https://ssl.pstatic.net/static/nid/login/m_sp_01_login_008d5216.png);
-    background-size: 266px 255px;
-    background-repeat: no-repeat;
+    background-size: 266px 225px;
 }
 
 .input{
     border-radius: 0;
-    border: none;
     background: 0 0;
     appearance: none;
-    outline: 0;
     text-decoration: none;
     cursor: pointer;
 }
@@ -141,15 +151,14 @@
 .input_text {
     position: relative;
     display: table-cell;
-    width: 100%;
-    font-size: 16px;
-    font-weight: 400px;
-    line-height: 19px;
-    letter-spacing: -.5px;
-    color: #222;
-    box-sizing: border-box;
-    z-index: 4;
     padding-right: 30px;
+    width: -webkit-fill-available;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: -0.5px;
+    color: #222;
+    z-index: 4;
 }
 
 .icon_pw {
@@ -161,6 +170,8 @@
     background-repeat: no-repeat;
     width: 16px;
     height: 16px;
+    background-image: url(https://ssl.pstatic.net/static/nid/login/m_sp_01_login_008d5216.png);
+    background-size: 266px 225px;
 }
 
 .login_keep {
@@ -192,7 +203,8 @@
     width: 18px;
     height: 18px;
     background-color: #fff;
-
+    background-image: url(https://ssl.pstatic.net/static/nid/login/m_sp_01_login_008d5216.png);
+    background-size: 266px 255px;
 }
 
 .keep {
