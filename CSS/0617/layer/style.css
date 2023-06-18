@@ -1,0 +1,164 @@
+/*? 웹 문서 작성 기본 CSS 설정 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+img {
+    border: 0;
+}
+
+a {
+    text-decoration: 0;
+}
+
+#wrap {
+    width: 100%;
+}
+
+/*! 헤더영역 */
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: yellowgreen;
+}
+
+#header_in {
+    margin: 0 auto;
+    width: 1200px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-right: 70px;
+}
+
+.lists{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.lists li{
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+
+.login {
+    text-align: center;
+    font-size: small;
+}
+
+.login li{
+    position: relative;
+    display: inline-block;
+    align-items: center;
+}
+
+.line {
+    color: #dadada; /* #dadada 색상 적용 */
+    text-decoration: none; /* 링크의 밑줄 제거 */
+}
+
+.question {
+    
+}
+
+/*! 메인영역 */
+#advice {
+    width:100%;
+    height: 750px;
+    background-color: violet;
+}
+
+#advice_h {
+    margin: 0 auto;
+    width: 1200px;
+    height: 260px;
+    background-color: brown;
+}
+
+#advice_b {
+    margin: 0 auto;
+    width: 1200px;
+    height: 490px;
+    background-color: pink;
+}
+
+#search {
+    width:100%;
+    height: 750px;
+    background-color: aquamarine;
+}
+
+#search_h {
+    margin: 0 auto;
+    width: 1200px;
+    height: 260px;
+    background-color: brown;
+}
+
+#search_b {
+    margin: 0 auto;
+    width: 1200px;
+    height: 490px;
+    background-color: pink;
+}
+
+#news {
+    width:100%;
+    height: 750px;
+    background-color: gold;
+}
+
+#news_h {
+    margin: 0 auto;
+    width: 1200px;
+    height: 260px;
+    background-color: brown;
+}
+
+#news_b {
+    margin: 0 auto;
+    width: 1200px;
+    height: 490px;
+    background-color: pink;
+}
+
+#board{
+    width:100%;
+    height: 750px;
+    background-color: blueviolet;
+}
+
+#board_h {
+    margin: 0 auto;
+    width: 1200px;
+    height: 260px;
+    background-color: brown;
+}
+
+#board_b {
+    margin: 0 auto;
+    width: 1200px;
+    height: 490px;
+    background-color: pink;
+}
+
+/*! 메인영역 */
+#footer {
+    width:100%;
+    height: 750px;
+    background-color: crimson;
+}
+
